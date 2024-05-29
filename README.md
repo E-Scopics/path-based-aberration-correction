@@ -28,6 +28,8 @@ The following package are required:
   
 - `jax`
 
+A guide for JAX installation can be found [https://jax.readthedocs.io/en/latest/installation.html#pip-installation-gpu-cuda-installed-via-pip-easier](here).
+
 To launch ***.ipynb**, please use jupyterlab or jupyter notebook (https://jupyter.org/).
 
 
