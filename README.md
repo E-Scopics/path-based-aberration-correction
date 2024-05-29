@@ -18,6 +18,8 @@ It is divided in three parts:
 
 - [example_pw.ipynb](example_pw.ipynb), a jupyter notebook that uses the above functions and perform aberration correction with PW acquisitions.
 
+- a data folder in which two simulations are stored (large file, use git lfs or download individually).
+
 ## Requirements
 
 The following package are required:
@@ -28,7 +30,12 @@ The following package are required:
   
 - `jax`
 
+- `jaxopt`
+
+- `optax`
+
 A guide for JAX installation can be found [here](https://jax.readthedocs.io/en/latest/installation.html#pip-installation-gpu-cuda-installed-via-pip-easier).
+Install `jaxopt` and `optax` with `pip install ...`.
 
 To launch ***.ipynb**, please use jupyterlab or jupyter notebook (https://jupyter.org/).
 
